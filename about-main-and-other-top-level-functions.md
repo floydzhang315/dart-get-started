@@ -2,9 +2,9 @@
 
 Dart 允许你定义顶级函数，这些函数不会封装在一个类或者对象当中，所有的应用程序都至少有一个顶级函数，即 `main()` 函数。
 
-你可以看到在本教程中的2个应用中有其他的顶级函数。在 `HelloWorld` 案例中调用了 `print()` 函数，一个声明在 `dart:core` 中的顶级函数。而 `simple` 程序调用了 `querySelector().text` ，一个声明在 `dart:html` 中的顶级函数。
+你可以看到在本教程中的 2 个应用中有其他的顶级函数。在 `HelloWorld` 案例中调用了 `print()` 函数，一个声明在 `dart:core` 中的顶级函数。而 `simple` 程序调用了 `querySelector().text` ，一个声明在 `dart:html` 中的顶级函数。
 
-一个函数的声明包含两个部分：署名和主体
+一个函数的声明包含两个部分：署名（Signature）和主体
 
 ![](images/function_parts.png)
 
